@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="distortion">
+	<test name="basic">
+		<packages>
+			<package name="engineering.taikun.distortion" />
+		</packages>
+		<classes>
+			<class name="engineering.taikun.distortion.NavigableMapNavigationTest">
+				<methods>
+					<exclude name="main" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
